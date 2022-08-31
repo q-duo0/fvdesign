@@ -18,11 +18,11 @@ B_charge_rate = 1.666e3; %W/kg
 
 % fuel
 PSFC = 8.5e-8; %kg/Ws
-mf = 3614; %kg
+mf = 3914; %kg
 
 % take off weight
 g = 9.8065; %m/s2
-MTOW = 25650 - 6300; %kg
+MTOW = 20000; %kg
 W0 = MTOW*g;
 
 % constraint factors P0/W0 at [takeoff, climb, cruise]
